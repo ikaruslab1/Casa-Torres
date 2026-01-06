@@ -24,15 +24,15 @@
 
     <!-- Introducción -->
     <p class="text-base md:text-lg leading-relaxed text-secondary-light text-center mb-16 animate-fade-in-up delay-400">
-        Al finalizar este capítulo, el estudiante comprenderá los principios fundamentales de la técnica *Chain of Thought* (CoT) para el diseño de *prompts*, será capaz de identificar y aplicar sus diversas variantes, y evaluará su impacto en la mejora del razonamiento, la precisión y la transparencia de los modelos de lenguaje grandes (LLM).
+        Al finalizar este capítulo, el estudiante comprenderá los principios fundamentales de la técnica <em class="text-accent-gold not-italic">Chain of Thought</em> (CoT) para el diseño de <em class="text-accent-gold not-italic">prompts</em>, será capaz de identificar y aplicar sus diversas variantes, y evaluará su impacto en la mejora del razonamiento, la precisión y la transparencia de los <em class="text-accent-gold not-italic">modelos de lenguaje grandes (LLM)</em>.
     </p>
 
     <p class="text-base md:text-lg leading-relaxed text-secondary-light text-center mb-16 animate-fade-in-up delay-400">
-        La era de la <strong class="text-primary-dark">Inteligencia Artificial Generativa</strong> ha transformado radicalmente la interacción entre humanos y máquinas. En este nuevo paradigma, la forma en que formulamos nuestras preguntas y peticiones a los sistemas de IA, a través de los llamados *prompts*, se ha convertido en una habilidad crucial. Sin embargo, tareas que para los humanos son sencillas pero requieren múltiples pasos lógicos, como la resolución de problemas matemáticos complejos o el razonamiento de sentido común, representan un desafío significativo para los LLM. Aquí es donde la <strong class="text-primary-dark">técnica Chain of Thought (CoT)</strong> emerge como un verdadero "superpoder" en la ingeniería de *prompts*.
+        La era de la <em class="text-accent-gold not-italic">Inteligencia Artificial Generativa</em> ha transformado radicalmente la interacción entre humanos y máquinas. En este nuevo paradigma, la forma en que formulamos nuestras preguntas y peticiones a los sistemas de IA, a través de los llamados <em class="text-accent-gold not-italic">prompts</em>, se ha convertido en una habilidad crucial. Sin embargo, tareas que para los humanos son sencillas pero requieren múltiples pasos lógicos, como la resolución de problemas matemáticos complejos o el razonamiento de sentido común, representan un desafío significativo para los <em class="text-accent-gold not-italic">LLM</em>. Aquí es donde la <em class="text-accent-gold not-italic">técnica Chain of Thought (CoT)</em> emerge como un verdadero "superpoder" en la ingeniería de <em class="text-accent-gold not-italic">prompts</em>.
     </p>
 
     <p class="text-base md:text-lg leading-relaxed text-secondary-light text-center mb-16 animate-fade-in-up delay-400">
-        La CoT se define como una estrategia de ingeniería de *prompts* diseñada para potenciar las capacidades de razonamiento de los LLM. Su relevancia radica en que, en lugar de esperar una respuesta directa y concisa, esta técnica guía al modelo para que <strong class="text-primary-dark">articule una serie de pasos intermedios y lógicos</strong>, emulando un proceso de pensamiento humano para alcanzar una solución más precisa y transparente. Este enfoque metodológico permite a los LLM procesar la información de manera más efectiva, construyendo una ruta clara y lógica hacia la respuesta final.
+        La <em class="text-accent-gold not-italic">CoT</em> se define como una estrategia de ingeniería de <em class="text-accent-gold not-italic">prompts</em> diseñada para potenciar las capacidades de razonamiento de los <em class="text-accent-gold not-italic">LLM</em>. Su relevancia radica en que, en lugar de esperar una respuesta directa y concisa, esta técnica guía al modelo para que <em class="text-accent-gold not-italic">articule una serie de pasos intermedios y lógicos</em>, emulando un proceso de pensamiento humano para alcanzar una solución más precisa y transparente. Este enfoque metodológico permite a los <em class="text-accent-gold not-italic">LLM</em> procesar la información de manera más efectiva, construyendo una ruta clara y lógica hacia la respuesta final.
     </p>
 
     <!-- Imagen -->
@@ -46,32 +46,32 @@
     </figure>
 
     <p class="text-base md:text-lg leading-relaxed text-secondary-light text-center mb-16 animate-fade-in-up delay-400">
-        Los <strong class="text-primary-dark">antecedentes</strong> de esta técnica se cimentan en investigaciones seminales, destacándose el trabajo de Wei et al. (2022) en "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models". Este estudio demostró cómo la provisión de unas pocas demostraciones de cadenas de pensamiento mejoraba significativamente el rendimiento de los LLM en tareas de razonamiento aritmético, de sentido común y simbólico. Desde entonces, el campo ha experimentado una rápida expansión, con avances continuos que profundizan en la comprensión y aplicación de CoT.
+        Los <em class="text-accent-gold not-italic">antecedentes</em> de esta técnica se cimentan en investigaciones seminales, destacándose el trabajo de Wei et al. (2022) en "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models". Este estudio demostró cómo la provisión de unas pocas demostraciones de cadenas de pensamiento mejoraba significativamente el rendimiento de los <em class="text-accent-gold not-italic">LLM</em> en tareas de razonamiento aritmético, de sentido común y simbólico.
     </p>
 
     <!-- Cuerpo del texto -->
     <div class="space-y-7 text-sm md:text-base leading-relaxed text-secondary-light mb-12">
         <p>
-            <strong class="text-primary-dark">Objetivo de Aprendizaje</strong><br>
-            Al finalizar este capítulo, el estudiante comprenderá los principios fundamentales de la técnica *Chain of Thought* (CoT) para el diseño de *prompts*, será capaz de identificar y aplicar sus diversas variantes, y evaluará su impacto en la mejora del razonamiento, la precisión y la transparencia de los modelos de lenguaje grandes (LLM).
+            <strong>Objetivo de Aprendizaje</strong><br>
+            Al finalizar este capítulo, el estudiante comprenderá los principios fundamentales de la técnica <em class="text-accent-gold not-italic">Chain of Thought</em> (CoT) para el diseño de <em class="text-accent-gold not-italic">prompts</em>, será capaz de identificar y aplicar sus diversas variantes, y evaluará su impacto en la mejora del razonamiento, la precisión y la transparencia de los <em class="text-accent-gold not-italic">modelos de lenguaje grandes (LLM)</em>.
         </p>
         <p>
-            <strong class="text-primary-dark">Definición y Relevancia</strong><br>
-            La CoT se define como una estrategia de ingeniería de *prompts* diseñada para potenciar las capacidades de razonamiento de los LLM. Su relevancia radica en que, en lugar de esperar una respuesta directa y concisa, esta técnica guía al modelo para que <strong class="text-primary-dark">articule una serie de pasos intermedios y lógicos</strong>, emulando un proceso de pensamiento humano para alcanzar una solución más precisa y transparente. Este enfoque metodológico permite a los LLM procesar la información de manera más efectiva, construyendo una ruta clara y lógica hacia la respuesta final.
+            <strong>Definición y Relevancia</strong><br>
+            La <em class="text-accent-gold not-italic">CoT</em> se define como una estrategia de ingeniería de <em class="text-accent-gold not-italic">prompts</em> diseñada para potenciar las capacidades de razonamiento de los <em class="text-accent-gold not-italic">LLM</em>. Su relevancia radica en que, en lugar de esperar una respuesta directa y concisa, esta técnica guía al modelo para que <em class="text-accent-gold not-italic">articule una serie de pasos intermedios y lógicos</em>, emulando un proceso de pensamiento humano para alcanzar una solución más precisa y transparente.
         </p>
         <p>
             <strong class="text-primary-dark">Antecedentes</strong><br>
-            Los antecedentes de esta técnica se cimentan en investigaciones seminales, destacándose el trabajo de Wei et al. (2022) en "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models". Este estudio demostró cómo la provisión de unas pocas demostraciones de cadenas de pensamiento mejoraba significativamente el rendimiento de los LLM en tareas de razonamiento aritmético, de sentido común y simbólico. Desde entonces, el campo ha experimentado una rápida expansión, con avances continuos que profundizan en la comprensión y aplicación de CoT.
+            Los antecedentes de esta técnica se cimentan en investigaciones seminales, destacándose el trabajo de Wei et al. (2022) en "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models". Este estudio demostró cómo la provisión de unas pocas demostraciones de cadenas de pensamiento mejoraba significativamente el rendimiento de los <em class="text-accent-gold not-italic">LLM</em> en tareas de razonamiento aritmético, de sentido común y simbólico. Desde entonces, el campo ha experimentado una rápida expansión, con avances continuos que profundizan en la comprensión y aplicación de <em class="text-accent-gold not-italic">CoT</em>.
         </p>
         <!-- Párrafo -->
         <p>
-             En su esencia, la técnica Chain of Thought es una invitación a la introspección computacional. Imagina que te enfrentas a un problema matemático complejo; en lugar de solo escribir la respuesta final, la instrucción "muestra tu trabajo" te obliga a desglosar el problema en pasos manejables, documentando cada cálculo intermedio. Esta analogía refleja fielmente el principio de CoT. En lugar de solicitar una respuesta directa, el *prompt* instruye al LLM a <strong class="text-primary-dark">descomponer un problema complejo en pasos secuenciales y gestionables</strong>. Esta estrategia metódica ayuda al modelo a procesar la información de forma más eficaz y a construir una trayectoria lógica clara hacia la solución final.
+             En su esencia, la técnica <em class="text-accent-gold not-italic">Chain of Thought</em> es una invitación a la introspección computacional. Imagina que te enfrentas a un problema matemático complejo; en lugar de solo escribir la respuesta final, la instrucción "muestra tu trabajo" te obliga a desglosar el problema en pasos manejables, documentando cada cálculo intermedio. Esta analogía refleja fielmente el principio de <em class="text-accent-gold not-italic">CoT</em>. En lugar de solicitar una respuesta directa, el <em class="text-accent-gold not-italic">prompt</em> instruye al <em class="text-accent-gold not-italic">LLM</em> a <em class="text-accent-gold not-italic">descomponer un problema complejo en pasos secuenciales y gestionables</em>. Esta estrategia metódica ayuda al modelo a procesar la información de forma más eficaz y a construir una trayectoria lógica clara hacia la solución final.
         </p>
         <!-- Lista ordenada -->
         <ol class="list-decimal list-inside space-y-2 ml-4">
-            <li><strong class="text-primary-dark">Razonamiento Multi-Paso</strong>: Este es el pilar de CoT. La técnica guía explícitamente a los modelos para que desglosen los problemas en una serie de pasos lógicos interrelacionados, de forma análoga a cómo los humanos abordan cuestiones complejas. Cada paso se construye sobre el anterior, refinando iterativamente la comprensión del modelo y acercándolo a la solución correcta. Permite al LLM enfocar sus recursos computacionales y atención en cada componente del problema de manera secuencial.</li>
-            <li><strong class="text-primary-dark">Transparencia y Explicabilidad</strong>: Al generar explícitamente los pasos de razonamiento intermedios, CoT confiere una visibilidad sin precedentes al proceso de toma de decisiones del modelo. Esta <strong class="text-primary-dark">transparencia</strong> no solo ayuda a los usuarios a comprender cómo se llegó a una conclusión, sino que también es invaluable para la depuración y auditoría del modelo en caso de errores, fomentando una mayor confianza en sus resultados.</li>
-            <li><strong class="text-primary-dark">Razonamiento Simbólico y Estructurado</strong>: En un nivel más profundo, aproximaciones como *Logic-of-Thought* (LoT) incorporan lógica formal, andamiaje programático o operaciones cognitivas modulares. Esto capacita a los LLM para involucrarse en un razonamiento más composicional, fiel y verificable, especialmente en tareas que requieren inferencia multi-paso como la aritmética o la resolución de rompecabezas.</li>
+            <li><strong class="text-primary-text">Razonamiento Multi-Paso</strong>: Este es el pilar de <em class="text-accent-gold not-italic">CoT</em>. La técnica guía explícitamente a los modelos para que desglosen los problemas en una serie de pasos lógicos interrelacionados, de forma análoga a cómo los humanos abordan cuestiones complejas.</li>
+            <li><strong class="text-primary-text">Transparencia y Explicabilidad</strong>: Al generar explícitamente los pasos de razonamiento intermedios, <em class="text-accent-gold not-italic">CoT</em> confiere una visibilidad sin precedentes al proceso de toma de decisiones del modelo.</li>
+            <li><strong class="text-primary-text">Razonamiento Simbólico y Estructurado</strong>: En un nivel más profundo, aproximaciones como <em class="text-accent-gold not-italic">Logic-of-Thought (LoT)</em> incorporan lógica formal, andamiaje programático o operaciones cognitivas modulares.</li>
         </ol>
 
         <!-- Titulo secundario -->
@@ -88,13 +88,13 @@
         </figure>
 
         <!-- Código -->
-        <div class="overflow-x-auto bg-gray-100 border-4 border-slate-200 shadow-lg p-6 rounded-lg">
-            <pre><code class="language-xml">
-&gt; <strong class="text-primary-dark">Insight Clave:</strong> La técnica Chain of Thought transforma la inferencia de un modelo de lenguaje de una "caja negra" a un "proceso transparente", imitando la cognición humana al resolver problemas paso a paso.
+        <div class="overflow-x-auto bg-bg-subtle border border-accent-gold/20 shadow-lg p-6 rounded-lg">
+            <pre><code class="language-xml text-secondary-light font-mono whitespace-pre-wrap">
+&gt; <strong class="text-accent-gold">Insight Clave:</strong> La técnica <em class="text-accent-gold not-italic">Chain of Thought</em> transforma la inferencia de un modelo de lenguaje de una "caja negra" a un "proceso transparente", imitando la cognición humana al resolver problemas paso a paso.
             </code></pre></div>
 
         <p>
-             La adopción de CoT ofrece una <strong class="text-primary-dark">precisión mejorada</strong>, ya que la descomposición de problemas complejos en partes lógicas más pequeñas mejora sustancialmente la capacidad del LLM para resolver tareas desafiantes. Además, permite una <strong class="text-primary-dark">descomposición efectiva del problema</strong>, lo que ayuda al modelo a concentrar sus recursos. Curiosamente, este enfoque también <strong class="text-primary-dark">imita la cognición humana</strong>, alentando al LLM a procesar la información de una manera que refleja las estrategias de resolución de problemas de las personas. Lo más destacable es su <strong class="text-primary-dark">eficiencia sin necesidad de *fine-tuning* extensivo</strong>, ya que las capacidades de razonamiento avanzado se activan directamente a través del *prompt*. La técnica Chain of Thought es especialmente beneficiosa en tareas donde el razonamiento estructurado y lógico es primordial, siendo generalmente más eficaz con modelos de lenguaje más grandes y potentes.
+             La adopción de <em class="text-accent-gold not-italic">CoT</em> ofrece una <em class="text-accent-gold not-italic">precisión mejorada</em>, ayuda al modelo a concentrar sus recursos y <em class="text-accent-gold not-italic">imita la cognición humana</em>. Lo más destacable es su <em class="text-accent-gold not-italic">eficiencia sin necesidad de fine-tuning extensivo</em>, ya que las capacidades de razonamiento avanzado se activan directamente a través del <em class="text-accent-gold not-italic">prompt</em>.
         </p>
 
         <!-- Texto importante -->
@@ -110,24 +110,24 @@
             <strong class="text-primary-dark">Implementaciones Clave de Chain of Thought:</strong>
         </p>
         <ul class="list-disc list-inside text-secondary-light space-y-2 ml-4">
-            <li><strong class="text-primary-dark">Zero-Shot Chain of Thought (Zero-shot CoT):</strong> Implica añadir una frase como "Pensemos paso a paso" o "Explica tu respuesta paso a paso" al final de tu *prompt*. Esta única instrucción es suficiente para que el LLM genere su propio proceso de razonamiento. Es un método "de disparo cero" porque no requiere ejemplos previos para el modelo.</li>
-            <li><strong class="text-primary-dark">Few-Shot Chain of Thought (Few-shot CoT):</strong> Este enfoque proporciona al LLM algunos ejemplos (*few-shot*) de problemas que incluyen tanto la pregunta como una explicación detallada, paso a paso, de cómo se llegó a la respuesta. Al aprender de estos ejemplos, el modelo puede aplicar un razonamiento similar a problemas nuevos y relacionados, lo que generalmente conduce a un rendimiento superior en comparación con el *Zero-shot CoT*.</li>
-            <li><strong class="text-primary-dark">Automatic Chain of Thought (Auto-CoT):</strong> Para reducir el esfuerzo manual de crear ejemplos *few-shot*, Auto-CoT genera automáticamente cadenas de razonamiento para demostraciones. Típicamente, agrupa preguntas y luego utiliza *Zero-shot CoT* para crear pasos de razonamiento para una pregunta representativa de cada grupo.</li>
-            <li><strong class="text-primary-dark">Tabular Chain of Thought (Tabular CoT):</strong> Esta variante instruye al modelo para que presente su razonamiento en un formato tabular estructurado, a menudo utilizando *markdown*. Esto mejora la claridad y organización de la salida, siendo ideal para tareas que requieren una visión sistemática de datos o procesos.</li>
+            <li><strong class="text-primary-text">Zero-Shot Chain of Thought (<em class="text-accent-gold not-italic">Zero-shot CoT</em>):</strong> Implica añadir una frase como "Pensemos paso a paso" al final de tu <em class="text-accent-gold not-italic">prompt</em>.</li>
+            <li><strong class="text-primary-text">Few-Shot Chain of Thought (<em class="text-accent-gold not-italic">Few-shot CoT</em>):</strong> Este enfoque proporciona al <em class="text-accent-gold not-italic">LLM</em> algunos ejemplos (<em class="text-accent-gold not-italic">few-shot</em>) que incluyen tanto la pregunta como una explicación detallada.</li>
+            <li><strong class="text-primary-text">Automatic Chain of Thought (<em class="text-accent-gold not-italic">Auto-CoT</em>):</strong> Para reducir el esfuerzo manual de crear ejemplos <em class="text-accent-gold not-italic">few-shot</em>, <em class="text-accent-gold not-italic">Auto-CoT</em> genera automáticamente cadenas de razonamiento.</li>
+            <li><strong class="text-primary-text">Tabular Chain of Thought (<em class="text-accent-gold not-italic">Tabular CoT</em>):</strong> Esta variante instruye al modelo para que presente su razonamiento en un formato tabular estructurado, a menudo utilizando <em class="text-accent-gold not-italic">markdown</em>.</li>
         </ul>
 
         <p>
             <strong class="text-primary-dark">Técnicas Avanzadas para una Mayor Sofisticación:</strong>
         </p>
         <ul class="list-disc list-inside text-secondary-light space-y-2 ml-4">
-            <li><strong class="text-primary-dark">Self-Consistency (CoT-SC):</strong> Genera múltiples caminos de razonamiento diversos para un problema dado y luego selecciona la respuesta más consistente o común entre ellos, reduciendo errores y mejorando la precisión general.</li>
-            <li><strong class="text-primary-dark">Tree of Thoughts (ToT):</strong> Anima al modelo a explorar múltiples "ramas" de solución, evaluar cada camino de forma independiente y luego comparar y recomendar el mejor resultado. Útil para planificación estratégica y toma de decisiones.</li>
-            <li><strong class="text-primary-dark">Least-to-Most Prompting:</strong> Descompone una tarea grande y compleja en subproblemas más pequeños y simples, resolviéndolos secuencialmente. Las soluciones a los problemas más simples sirven como pasos intermedios para resolver las partes subsiguientes.</li>
-            <li><strong class="text-primary-dark">Prompt Chaining y Descomposición:</strong> Utiliza múltiples *prompts* secuenciales, donde cada *prompt* posterior se construye sobre la salida del anterior, abordando tareas extremadamente grandes mediante delegación modular.</li>
-            <li><strong class="text-primary-dark">Meta-Prompting:</strong> Implica usar una IA para generar y mejorar *prompts* sistemáticamente, o asignar a la IA un rol específico para controlar su tono y estructura.</li>
-            <li><strong class="text-primary-dark">Logic-of-Thought (LoT) Prompting:</strong> Integra pasos explícitos de razonamiento lógico, simbólico y estructurado en los *prompts* de los LLM para mejorar la inferencia multi-paso.</li>
-            <li><strong class="text-primary-dark">Contrastive CoT Prompting:</strong> Refina el entrenamiento del modelo proporcionando ejemplos CoT tanto positivos (cómo razonar) como negativos (cómo *no* razonar).</li>
-            <li><strong class="text-primary-dark">Generated Knowledge Prompting:</strong> Antes de intentar responder la pregunta principal, se le pide al modelo que genere conocimiento o hechos relevantes que puedan ayudar en su proceso de razonamiento.</li>
+            <li><strong class="text-primary-text">Self-Consistency (<em class="text-accent-gold not-italic">CoT-SC</em>):</strong> Genera múltiples caminos de razonamiento diversos y selecciona la respuesta más consistente.</li>
+            <li><strong class="text-primary-text">Tree of Thoughts (<em class="text-accent-gold not-italic">ToT</em>):</strong> Anima al modelo a explorar múltiples "ramas" de solución, evaluar cada camino de forma independiente y recomendar el mejor.</li>
+            <li><strong class="text-primary-text">Least-to-Most Prompting:</strong> Descompone una tarea compleja en subproblemas más simples, resolviéndolos secuencialmente.</li>
+            <li><strong class="text-primary-text">Prompt Chaining y Descomposición:</strong> Utiliza múltiples <em class="text-accent-gold not-italic">prompts</em> secuenciales donde cada uno se construye sobre la salida del anterior.</li>
+            <li><strong class="text-primary-text">Meta-Prompting:</strong> Implica usar una IA para generar y mejorar <em class="text-accent-gold not-italic">prompts</em> sistemáticamente.</li>
+            <li><strong class="text-primary-text">Logic-of-Thought (<em class="text-accent-gold not-italic">LoT</em>) Prompting:</strong> Integra pasos explícitos de razonamiento lógico y simbólico en los <em class="text-accent-gold not-italic">prompts</em> de los <em class="text-accent-gold not-italic">LLM</em>.</li>
+            <li><strong class="text-primary-text">Contrastive CoT Prompting:</strong> Refina el entrenamiento del modelo proporcionando ejemplos <em class="text-accent-gold not-italic">CoT</em> tanto positivos como negativos.</li>
+            <li><strong class="text-primary-text">Generated Knowledge Prompting:</strong> Se le pide al modelo que genere conocimiento relevante antes de responder la pregunta principal.</li>
         </ul>
 
         <!-- Imagen -->
@@ -141,7 +141,7 @@
         </figure>
 
         <p>
-            Estos enfoques se aplican en diversos escenarios, desde la <strong class="text-primary-dark">resolución de problemas matemáticos</strong> y la <strong class="text-primary-dark">comprensión de sentido común</strong> hasta la <strong class="text-primary-dark">manipulación simbólica</strong> y la <strong class="text-primary-dark">planificación estratégica</strong>. La CoT se convierte en una herramienta indispensable para mejorar la fiabilidad de los LLM en entornos críticos, permitiendo que las máquinas no solo lleguen a una respuesta, sino que también demuestren un camino verificable hacia ella.
+            Estos enfoques se aplican en diversos escenarios, desde la <em class="text-accent-gold not-italic">resolución de problemas matemáticos</em> y la <em class="text-accent-gold not-italic">comprensión de sentido común</em> hasta la <em class="text-accent-gold not-italic">manipulación simbólica</em> y la <em class="text-accent-gold not-italic">planificación estratégica</em>. La <em class="text-accent-gold not-italic">CoT</em> se convierte en una herramienta indispensable para mejorar la fiabilidad de los <em class="text-accent-gold not-italic">LLM</em> en entornos críticos.
         </p>
 
         <div class="decorative-divider"></div>
@@ -156,13 +156,12 @@
         <h3 class="text-2xl font-serif text-primary-dark mb-3">La Receta Maestra del Chef Digital</h3>
         <p class="text-sm text-secondary-light mb-4"><strong class="text-primary-dark">Nivel:</strong> Analogía</p>
         <blockquote class="border-l-4 border-accent-gold pl-4 italic text-secondary-light mb-6 bg-bg-subtle py-3 rounded-r-md">
-            <strong class="text-primary-dark">Concepto Clave:</strong> La técnica Chain of Thought (CoT) guía al modelo de lenguaje a articular una serie de pasos lógicos intermedios para llegar a una solución precisa.
+            <strong class="text-primary-text">Concepto Clave:</strong> La técnica <em class="text-accent-gold not-italic">Chain of Thought</em> (CoT) guía al modelo de lenguaje a <em class="text-accent-gold not-italic">articular una serie de pasos lógicos intermedios</em> para llegar a una solución precisa.
         </blockquote>
         <p class="mb-4 text-sm md:text-base leading-relaxed"><strong class="text-primary-dark">El Escenario:</strong><br>Imagina que eres un chef novato frente a una receta de alta cocina para un plato complejo, como un "Wellington de Ternera". Si la receta simplemente dijera "Prepara el Wellington", el resultado sería desastroso. Pero si la receta se desglosa en pasos detallados: "1. Sellar el solomillo. 2. Preparar el duxelle de champiñones. 3. Envolver en jamón serrano. 4. Cubrir con masa de hojaldre. 5. Hornear a X temperatura por Y tiempo.", tu éxito está casi garantizado.</p>
-        <p class="mb-4 text-sm md:text-base leading-relaxed"><strong class="text-primary-dark">Análisis (El "Insight"):</strong></p>
         <ul class="list-disc list-inside text-secondary-light space-y-2 ml-4">
-            <li><strong class="text-primary-dark">¿Por qué funciona?:</strong> Al igual que la receta desglosada, la técnica CoT permite que un modelo de lenguaje descomponga un problema complejo en sub-tareas manejables y secuenciales. Cada paso intermedio (sellar, preparar duxelle) es una "unidad de pensamiento" que el modelo procesa antes de pasar a la siguiente, construyendo una ruta lógica hacia la solución final. Esto "imita la cognición humana" al pensar a través de cada paso.</li>
-            <li><strong class="text-primary-dark">Aplicación:</strong> Esta metodología transforma una tarea abrumadora en una serie de acciones lógicas, mejorando la "precisión mejorada" al asegurar que cada componente del problema se aborde sistemáticamente, y ofreciendo "transparencia" sobre cómo se llegó al resultado.</li>
+            <li><strong>¿Por qué funciona?:</strong> Al igual que la receta desglosada, la técnica <em class="text-accent-gold not-italic">CoT</em> permite que un modelo de lenguaje descomponga un problema complejo en sub-tareas manejables y secuenciales.</li>
+            <li><strong>Aplicación:</strong> Esta metodología transforma una tarea abrumadora en una serie de acciones lógicas, mejorando la <em class="text-accent-gold not-italic">precisión mejorada</em> y ofreciendo <em class="text-accent-gold not-italic">transparencia</em>.</li>
         </ul>
     </div>
 
@@ -170,13 +169,12 @@
         <h3 class="text-2xl font-serif text-primary-dark mb-3">Resolviendo el Enigma del Inventario con Zero-shot CoT</h3>
         <p class="text-sm text-secondary-light mb-4"><strong class="text-primary-dark">Nivel:</strong> Técnico</p>
         <blockquote class="border-l-4 border-accent-gold pl-4 italic text-secondary-light mb-6 bg-bg-subtle py-3 rounded-r-md">
-            <strong class="text-primary-dark">Concepto Clave:</strong> Zero-shot Chain of Thought implica añadir una frase simple, como "Pensemos paso a paso", al final del prompt para que el LLM genere su propio proceso de razonamiento.
+            <strong class="text-primary-text">Concepto Clave:</strong> <em class="text-accent-gold not-italic">Zero-shot Chain of Thought</em> implica añadir una frase simple, como "Pensemos paso a paso", al final del <em class="text-accent-gold not-italic">prompt</em>.
         </blockquote>
         <p class="mb-4 text-sm md:text-base leading-relaxed"><strong class="text-primary-dark">El Escenario:</strong><br>Un gerente de logística necesita saber el inventario final de un producto después de varias transacciones en un almacén. En lugar de procesar los números manualmente, decide usar un LLM para una respuesta rápida y verificable. Envía el siguiente prompt: "Tenemos 250 unidades de Producto X al inicio del mes. Durante la primera semana, se vendieron 75 unidades. La segunda semana, se recibieron 40 unidades de un nuevo envío. La tercera semana, se retiró el 20% del inventario restante para una promoción especial. ¿Cuántas unidades de Producto X quedan? <strong class="text-primary-dark">Pensemos paso a paso.</strong>"</p>
-        <p class="mb-4 text-sm md:text-base leading-relaxed"><strong class="text-primary-dark">Análisis (El "Insight"):</strong></p>
         <ul class="list-disc list-inside text-secondary-light space-y-2 ml-4">
-            <li><strong class="text-primary-dark">¿Por qué funciona?:</strong> La simple frase "Pensemos paso a paso" actuó como un potente "andamiaje cognitivo" para el LLM. Forzó al modelo a aplicar "razonamiento multi-pasos" y "descomposición efectiva del problema" al abordar cada operación aritmética de forma secuencial. Esto no solo lleva a la "precisión mejorada" en el cálculo, sino que también ofrece "transparencia" sobre cómo el modelo llegó a la respuesta.</li>
-            <li><strong class="text-primary-dark">Aplicación:</strong> Esta técnica permite a los usuarios obtener soluciones a problemas complejos de forma rápida y confiable, sin la necesidad de ejemplos previos (zero-shot). Es ideal para cálculos, lógicas de negocio o análisis de datos donde se requiere una secuencia clara de operaciones, "sin necesidad de un ajuste fino extensivo" del modelo.</li>
+            <li><strong>¿Por qué funciona?:</strong> La frase "Pensemos paso a paso" forzó al modelo a aplicar <em class="text-accent-gold not-italic">razonamiento multi-pasos</em> y <em class="text-accent-gold not-italic">descomposición efectiva del problema</em>.</li>
+            <li><strong>Aplicación:</strong> Esta técnica permite obtener soluciones rápidas y confiables <em class="text-accent-gold not-italic">sin necesidad de un ajuste fino extensivo</em>.</li>
         </ul>
     </div>
 
@@ -184,13 +182,12 @@
         <h3 class="text-2xl font-serif text-primary-dark mb-3">Estrategia de Mercado con Árbol de Pensamiento (Tree of Thoughts)</h3>
         <p class="text-sm text-secondary-light mb-4"><strong class="text-primary-dark">Nivel:</strong> Caso Real/Profesional</p>
         <blockquote class="border-l-4 border-accent-gold pl-4 italic text-secondary-light mb-6 bg-bg-subtle py-3 rounded-r-md">
-            <strong class="text-primary-dark">Concepto Clave:</strong> Tree of Thoughts (ToT) anima al modelo a explorar múltiples ramas de solución, evaluar cada camino independientemente y luego comparar y recomendar el mejor resultado.
+            <strong class="text-primary-text">Concepto Clave:</strong> <em class="text-accent-gold not-italic">Tree of Thoughts</em> (ToT) anima al modelo a explorar múltiples ramas de solución y recomendar el mejor resultado.
         </blockquote>
         <p class="mb-4 text-sm md:text-base leading-relaxed"><strong class="text-primary-dark">El Escenario:</strong><br>Una empresa farmacéutica global está considerando lanzar un nuevo medicamento innovador en un mercado altamente regulado con competidores establecidos. El CEO necesita una evaluación estratégica de las opciones de entrada al mercado, considerando riesgos, beneficios y requisitos regulatorios. Un equipo de estrategia utiliza un LLM avanzado con la técnica Tree of Thoughts para generar y evaluar posibles escenarios. El prompt instruye al LLM a no solo listar opciones, sino a "generar múltiples rutas estratégicas, evaluar las ventajas y desventajas de cada una, y luego sintetizar una recomendación basada en la solidez de cada 'rama de pensamiento'".</p>
-        <p class="mb-4 text-sm md:text-base leading-relaxed"><strong class="text-primary-dark">Análisis (El "Insight"):</strong></p>
         <ul class="list-disc list-inside text-secondary-light space-y-2 ml-4">
-            <li><strong class="text-primary-dark">¿Por qué funciona?:</strong> Tree of Thoughts permite al LLM ir más allá de una "cadena lineal de pensamiento" y realizar un "razonamiento jerárquico y basado en árboles". Esto es crucial para la "resolución de problemas" complejos donde existen múltiples caminos viables, cada uno con sus propias implicaciones. La capacidad de "evaluar dinámicamente pensamientos" a medida que progresa y "comparar resultados" de diferentes rutas, mimetiza el proceso de toma de decisiones estratégicas humanas, ofreciendo una "transparencia y explicabilidad" en el proceso de decisión.</li>
-            <li><strong class="text-primary-dark">Aplicación:</strong> En entornos profesionales, ToT es invaluable para la "planificación estratégica", el "análisis de riesgos" o la "toma de decisiones complejas" donde no hay una única respuesta correcta y se deben sopesar múltiples factores. Proporciona un "valor de negocio" significativo al permitir a las organizaciones explorar un espacio de soluciones amplio y llegar a recomendaciones robustas y bien fundamentadas.</li>
+            <li><strong>¿Por qué funciona?:</strong> <em class="text-accent-gold not-italic">Tree of Thoughts</em> permite al <em class="text-accent-gold not-italic">LLM</em> ir más allá de una cadena lineal y realizar un <em class="text-accent-gold not-italic">razonamiento jerárquico</em>.</li>
+            <li><strong>Aplicación:</strong> En entornos profesionales, <em class="text-accent-gold not-italic">ToT</em> es invaluable para la <em class="text-accent-gold not-italic">planificación estratégica</em> y la <em class="text-accent-gold not-italic">toma de decisiones complejas</em>.</li>
         </ul>
     </div>
 
